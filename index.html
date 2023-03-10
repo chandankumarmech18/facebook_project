@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <title>Facebook</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-left">
+            <img src="logo.png" class="logo">
+            <ul>
+                <li><img src="notification.png"></li>
+                <li><img src="inbox.png"></li>
+                <li><img src="video.png"></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="search.png">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingMenuToggle()">
+                <img src="profile-pic.png">
+            </div>
+        </div>
+
+        <div class="setting-menu">
+            <div id="dark-btn" class="dark-btn-on">
+                <span></span>
+            </div>
+
+            <div class="setting-menu-inner">
+                <div class="user-profile">
+                    <img src="profile-pic.png">
+                    <div>
+                        <p>John Nicelson</p>
+                        <a href="#">See Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+    
+                <div class="user-profile">
+                    <img src="feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="settong-links">
+                    <img src="setting.png" class="setting-icon">
+                    <a href="#">Settings & Privacy <img src="arrow.png" width="10px"> </a>
+                </div>
+                <div class="settong-links">
+                    <img src="help.png" class="setting-icon">
+                    <a href="#">help & Support<img src="arrow.png" width="10px"> </a>
+                </div>
+                <div class="settong-links">
+                    <img src="display.png" class="setting-icon">
+                    <a href="#">Display & Accessibility <img src="arrow.png" width="10px"> </a>
+                </div>
+                <div class="settong-links">
+                    <img src="logout.png" class="setting-icon">
+                    <a href="#">Logout<img src="arrow.png" width="10px"> </a>
+                </div>
+
+            </div>
+            
+
+        </div>
+
+    </nav>
+    <div class="container">
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><img src="news.png">Latest News</a>
+                <a href="#"><img src="friends.png">Friends</a>
+                <a href="#"><img src="group.png">Group</a>
+                <a href="#"><img src="marketplace.png">Marketplace</a>
+                <a href="#"><img src="watch.png">Watch</a>
+                <a href="#">See More</a>
+            </div>
+            <div class="shortcut-links">
+                <p>Your Shortcuts</p>
+                <a href="#"><img src="shortcut-1.png">Web Devlopers</a>
+                <a href="#"><img src="shortcut-2.png">Web Design cours</a>
+                <a href="#"><img src="shortcut-3.png">Full Stack Devlopers</a>
+                <a href="#"><img src="shortcut-4.png">Website Experts</a>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="upload.png">
+                    <p>Post Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="member-1.png">
+                    <p>Alison</p>
+                </div>
+                <div class="story story3">
+                    <img src="member-2.png">
+                    <p>Jackson</p>
+                </div>
+                <div class="story story4">
+                    <img src="member-3.png">
+                    <p>Samona</p>
+                </div>
+                <div class="story story5">
+                    <img src="member-4.png">
+                    <p>Aman</p>
+                </div>
+            </div>
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="profile-pic.png">
+                    <div>
+                        <p>John Nicelson</p>
+                        <small>Public <ion-icon name="chevron-down-outline"></ion-icon></small>
+                    </div>
+                </div>
+
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="what's on your mind, John"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><img src="live-video.png">Live Video</a>
+                        <a href="#"><img src="photo.png">photo/Video</a>
+                        <a href="#"><img src="feeling.png">feeling activity</a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="profile-pic.png">
+                        <div>
+                            <p>John Nicelson</p>
+                            <span>June 24 2018, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><ion-icon name="ellipsis-vertical-outline"></ion-icon></a>
+                </div>
+                <p class="post-text">
+                    Lorem ipsum dolor <span>Sit Amet Consectetur</span>
+                    adipisicing elit. Cupiditate, rem?
+                    <a href="#">This my </a><a href="#">Youtube Channel</a>
+                </p>
+                <img src="feed-image-1.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="like-blue.png">120</div>
+                        <div><img src="comments.png">54</div>
+                        <div><img src="share.png">34</div>
+
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="profile-pic.png"><ion-icon name="chevron-down-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+           
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="profile-pic.png">
+                        <div>
+                            <p>John Nicelson</p>
+                            <span>June 24 2019, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><ion-icon name="ellipsis-vertical-outline"></ion-icon></a>
+                </div>
+                <p class="post-text">
+                    Lorem ipsum dolor <span>Sit Amet Consectetur</span>
+                    adipisicing elit. Cupiditate, rem?
+                    <a href="#">This my </a><a href="#">Youtube Channel</a>
+                </p>
+                <img src="feed-image-2.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="like-blue.png">1k</div>
+                        <div><img src="comments.png">200</div>
+                        <div><img src="share.png">130</div>
+
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="profile-pic.png"><ion-icon name="chevron-down-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="profile-pic.png">
+                        <div>
+                            <p>John Nicelson</p>
+                            <span>June 24 2020, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><ion-icon name="ellipsis-vertical-outline"></ion-icon></a>
+                </div>
+                <p class="post-text">
+                    Lorem ipsum dolor <span>Sit Amet Consectetur</span>
+                    adipisicing elit. Cupiditate, rem?
+                    <a href="#">This my </a><a href="#">Youtube Channel</a>
+                </p>
+                <img src="feed-image-3.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="like-blue.png">12k</div>
+                        <div><img src="comments.png">540</div>
+                        <div><img src="share.png">343</div>
+
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="profile-pic.png"><ion-icon name="chevron-down-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="profile-pic.png">
+                        <div>
+                            <p>John Nicelson</p>
+                            <span>June 24 2021, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><ion-icon name="ellipsis-vertical-outline"></ion-icon></a>
+                </div>
+                <p class="post-text">
+                    Lorem ipsum dolor <span>Sit Amet Consectetur</span>
+                    adipisicing elit. Cupiditate, rem?
+                    <a href="#">This my </a><a href="#">Youtube Channel</a>
+                </p>
+                <img src="feed-image-4.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="like-blue.png">100k</div>
+                        <div><img src="comments.png">540</div>
+                        <div><img src="share.png">340</div>
+
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="profile-pic.png"><ion-icon name="chevron-down-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="profile-pic.png">
+                        <div>
+                            <p>John Nicelson</p>
+                            <span>June 24 2022, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><ion-icon name="ellipsis-vertical-outline"></ion-icon></a>
+                </div>
+                <p class="post-text">
+                    Lorem ipsum dolor <span>Sit Amet Consectetur</span>
+                    adipisicing elit. Cupiditate, rem?
+                    <a href="#">This my </a><a href="#">Youtube Channel</a>
+                </p>
+                <img src="feed-image-5.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="like-blue.png">1220</div>
+                        <div><img src="comments.png">534</div>
+                        <div><img src="share.png">324</div>
+
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="profile-pic.png"><ion-icon name="chevron-down-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="profile-pic.png">
+                        <div>
+                            <p>John Nicelson</p>
+                            <span>Jan 24 2023, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><ion-icon name="ellipsis-vertical-outline"></ion-icon></a>
+                </div>
+                <p class="post-text">
+                    Lorem ipsum dolor <span>Sit Amet Consectetur</span>
+                    adipisicing elit. Cupiditate, rem?
+                    <a href="#">This my </a><a href="#">Youtube Channel</a>
+                </p>
+                <img src="feed-image-4.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="like-blue.png">120</div>
+                        <div><img src="comments.png">54</div>
+                        <div><img src="share.png">34</div>
+
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="profile-pic.png"><ion-icon name="chevron-down-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="profile-pic.png">
+                        <div>
+                            <p>John Nicelson</p>
+                            <span>June 24 2023, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><ion-icon name="ellipsis-vertical-outline"></ion-icon></a>
+                </div>
+                <p class="post-text">
+                    Lorem ipsum dolor <span>Sit Amet Consectetur</span>
+                    adipisicing elit. Cupiditate, rem?
+                    <a href="#">This my </a><a href="#">Youtube Channel</a>
+                </p>
+                <img src="feed-image-1.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="like-blue.png">120</div>
+                        <div><img src="comments.png">54</div>
+                        <div><img src="share.png">34</div>
+
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="profile-pic.png"><ion-icon name="chevron-down-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="profile-pic.png">
+                        <div>
+                            <p>John Nicelson</p>
+                            <span>March 24 2023, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><ion-icon name="ellipsis-vertical-outline"></ion-icon></a>
+                </div>
+                <p class="post-text">
+                    Lorem ipsum dolor <span>Sit Amet Consectetur</span>
+                    adipisicing elit. Cupiditate, rem?
+                    <a href="#">This my </a><a href="#">Youtube Channel</a>
+                </p>
+                <img src="feed-image-1.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="like-blue.png">120</div>
+                        <div><img src="comments.png">54</div>
+                        <div><img src="share.png">34</div>
+
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="profile-pic.png"><ion-icon name="chevron-down-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="profile-pic.png">
+                        <div>
+                            <p>John Nicelson</p>
+                            <span>Feb 24 2023, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><ion-icon name="ellipsis-vertical-outline"></ion-icon></a>
+                </div>
+                <p class="post-text">
+                    Lorem ipsum dolor <span>Sit Amet Consectetur</span>
+                    adipisicing elit. Cupiditate, rem?
+                    <a href="#">This my </a><a href="#">Youtube Channel</a>
+                </p>
+                <img src="feed-image-1.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="like-blue.png">120</div>
+                        <div><img src="comments.png">54</div>
+                        <div><img src="share.png">34</div>
+
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="profile-pic.png"><ion-icon name="chevron-down-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="profile-pic.png">
+                        <div>
+                            <p>John Nicelson</p>
+                            <span>Jan 24 2023, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><ion-icon name="ellipsis-vertical-outline"></ion-icon></a>
+                </div>
+                <p class="post-text">
+                    Lorem ipsum dolor <span>Sit Amet Consectetur</span>
+                    adipisicing elit. Cupiditate, rem?
+                    <a href="#">This my </a><a href="#">Youtube Channel</a>
+                </p>
+                <img src="feed-image-1.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="like-blue.png">120</div>
+                        <div><img src="comments.png">54</div>
+                        <div><img src="share.png">34</div>
+
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="profile-pic.png"><ion-icon name="chevron-down-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="profile-pic.png">
+                        <div>
+                            <p>John Nicelson</p>
+                            <span>June 24 2023, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><ion-icon name="ellipsis-vertical-outline"></ion-icon></a>
+                </div>
+                <p class="post-text">
+                    Lorem ipsum dolor <span>Sit Amet Consectetur</span>
+                    adipisicing elit. Cupiditate, rem?
+                    <a href="#">This my </a><a href="#">Youtube Channel</a>
+                </p>
+                <img src="feed-image-1.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="like-blue.png">120</div>
+                        <div><img src="comments.png">54</div>
+                        <div><img src="share.png">34</div>
+
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="profile-pic.png"><ion-icon name="chevron-down-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="profile-pic.png">
+                        <div>
+                            <p>John Nicelson</p>
+                            <span>June 3 2023, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><ion-icon name="ellipsis-vertical-outline"></ion-icon></a>
+                </div>
+                <p class="post-text">
+                    Lorem ipsum dolor <span>Sit Amet Consectetur</span>
+                    adipisicing elit. Cupiditate, rem?
+                    <a href="#">This my </a><a href="#">Youtube Channel</a>
+                </p>
+                <img src="feed-image-2.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="like-blue.png">120</div>
+                        <div><img src="comments.png">54</div>
+                        <div><img src="share.png">34</div>
+
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="profile-pic.png"><ion-icon name="chevron-down-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <button type="button" class="lode-more-btn">Load More</button>
+
+        </div>
+
+
+        <div class="right-sidebar">
+            <div class="sidebar-titel">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Media</h4>
+                    <p><ion-icon name="location-outline"></ion-icon>Willson Tech Park</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>22</h3>
+                    <span>June</span>
+                </div>
+
+
+                <div class="right-event">
+                    <h4>Mobile Marketing</h4>
+                    <p><ion-icon name="location-outline"></ion-icon>Willson Tech Park</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="sidebar-titel">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="advertisement.png" class="apple">
+            <div class="sidebar-titel">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="member-1.png">
+                </div>
+                <p>Alison Mina</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="member-2.png">
+                </div>
+                <p>rohan</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="member-3.png">
+                </div>
+                <p>ruhi</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Copyright 2023</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
